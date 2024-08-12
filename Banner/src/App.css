@@ -1,0 +1,33 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.btn-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.btn{
+  padding: 5px;
+  background-color: black;
+  color: yellow;
+  border-radius: 50px;
+  font-weight: 600;
+}
+.banner{
+  width: 600px;
+  padding: 30px;
+  background-color: rgb(243, 243, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.banner-title{
+  font-size: 35px;
+}
